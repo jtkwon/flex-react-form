@@ -1,4 +1,4 @@
-import { Hello } from '@kcdevclub/flex-react-form';
+import Hello from '@kcdevclub/flex-react-form';
 
 function App() {
   Hello();
