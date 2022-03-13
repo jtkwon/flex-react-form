@@ -1,0 +1,36 @@
+# logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# backup
+**/*.backup.*
+**/*.back.*
+
+# coverage
+coverage
+
+# dependencies
+node_modules
+build/
+.yarn/*
+
+# optional npm cache
+.npm
+
+# optional eslint cache
+.eslintcache
+
+# os and ide
+.DS_Store
+/lib
+/temp
+.idea/
+*.sublime*
+.vscode/*
+.history/
+.Trashes
+.Spotlight-V100
+Thumbs.db
