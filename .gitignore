@@ -15,6 +15,7 @@ coverage
 # dependencies
 node_modules
 build/
+dist/
 .yarn/*
 
 # optional npm cache
