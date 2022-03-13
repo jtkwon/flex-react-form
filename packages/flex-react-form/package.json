@@ -1,0 +1,49 @@
+{
+  "name": "@kcdevclub/flex-react-form",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "jtkwon <jeff.t.kwon@gmail.com>",
+  "homepage": "https://github.com/KCDEVCLUB/flex-react-form/tree/main/packages/flex-react-form#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "module": "dist/flex-react-form.esm.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "form",
+    "forms",
+    "flexible",
+    "dynamic",
+    "validation"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtkwon/flex-react-form.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "bugs": {
+    "url": "https://github.com/jtkwon/flex-react-form/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-env": "^7.16.11",
+    "rollup": "^2.70.0",
+    "rollup-plugin-babel": "^4.4.0"
+  }
+}
