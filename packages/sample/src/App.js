@@ -1,11 +1,10 @@
 import Hello from '@kcdevclub/flex-react-form';
 
 function App() {
-  Hello();
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello World</p>
+        <Hello />
       </header>
     </div>
   );
