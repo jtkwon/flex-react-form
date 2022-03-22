@@ -12,7 +12,7 @@
     "lint": "eslint 'packages/**/*.{js,jsx}'",
     "lint:fix": "yarn lint -- --fix",
     "prettier:fix": "prettier --config .prettierrc --write \"**/*.{js,jsx,css}\"",
-    "test": "lerna run test"
+    "test": "lerna exec npm run test"
   },
   "repository": "git+https://github.com/KCDEVCLUB/flex-react-form.git",
   "author": "KCDEVCLUB",
