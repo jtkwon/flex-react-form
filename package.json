@@ -8,11 +8,11 @@
     "start": "lerna run --parallel start",
     "build": "lerna run build",
     "add": "lerna add",
-    "test": "lerna run precommit --parallel",
     "prepare": "husky install",
     "lint": "eslint 'packages/**/*.{js,jsx}'",
     "lint:fix": "yarn lint -- --fix",
-    "prettier:fix": "prettier --config .prettierrc --write \"**/*.{js,jsx,css}\""
+    "prettier:fix": "prettier --config .prettierrc --write \"**/*.{js,jsx,css}\"",
+    "test": "lerna run test"
   },
   "repository": "git+https://github.com/KCDEVCLUB/flex-react-form.git",
   "author": "KCDEVCLUB",
