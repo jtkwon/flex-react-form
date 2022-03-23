@@ -5,7 +5,7 @@ export default function Canvas() {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    if (canvasRef) {
+    if (canvasRef.current) {
       const ctx = canvasRef.current.getContext('2d');
       // const elem = ReactDOMServer.renderToStaticMarkup(<SampleText />);
       // ctx.canvas.outerHTML = elem;
@@ -19,5 +19,5 @@ export default function Canvas() {
     }
   }, []);
 
-  return canvasRef ? <canvas ref={canvasRef} /> : null;
+  return <canvas ref={canvasRef} />;
 }
