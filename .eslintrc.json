@@ -14,9 +14,10 @@
   "plugins": ["react"],
   "rules": {
     "no-console": "warn",
+    "func-names": "off",
     "import/first": "error",
     "eqeqeq": "warn",
-    "linebreak-style": 0,
+    "linebreak-style": "off",
     "react/jsx-filename-extension": [
       1,
       {

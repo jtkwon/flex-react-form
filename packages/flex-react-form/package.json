@@ -40,7 +40,8 @@
     "url": "https://github.com/KCDEVCLUB/flex-react-form/issues"
   },
   "peerDependencies": {
-    "react": "^16.8.0 || ^17"
+    "react": "^16.8.0 || ^17",
+    "react-dom": "^16.8.0 || ^17"
   },
   "devDependencies": {
     "@babel/core": "^7.17.5",

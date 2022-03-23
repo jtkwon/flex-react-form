@@ -1,5 +1,3 @@
-import React from 'react';
+import FlexForm from './FlexForm';
 
-export default function Hello() {
-  return <p>Hello World</p>;
-}
+export default FlexForm;
